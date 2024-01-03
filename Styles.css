@@ -6,3 +6,8 @@ p{
     color: blue;
     font-size: larger;
 }
+h3{
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: x-large;
+}
