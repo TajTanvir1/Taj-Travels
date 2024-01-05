@@ -11,3 +11,8 @@ h3{
     text-decoration: underline;
     font-size: x-large;
 }
+
+.img{
+    margin: 0px;
+    padding: 0;
+}
