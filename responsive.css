@@ -2,6 +2,7 @@
 
 @media screen and (max-width: 601px) {
     /* Common styles */
+    
 
     body {
         align-items: center;
@@ -9,15 +10,15 @@
     }
 
     nav {
-        margin: 20px;
+        margin: 10px;
     }
 
     header {
-        margin: 20px;
+        margin: 10px;
     }
 
     main {
-        margin: 20px;
+        margin: 10px;
     }
 
     .primary-headings {
@@ -327,9 +328,9 @@
         width: 60%;
     }
 
-    .newsletter-input-container {
-        width: 100%;
-    }
+    /* .newsletter-input-container {
+        width: 95%;
+    } */
 
     .newsletter-input {
         width: 80%;
@@ -372,6 +373,10 @@
     .special-img1,
     .special-img2,
     .special-img3 {
+        width: 100%;
+    }
+
+    .special-img-container img{
         width: 100%;
     }
 
