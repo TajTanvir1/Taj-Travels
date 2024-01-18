@@ -1,32 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taj Travels</title>
-    <link rel="stylesheet" href="Styles.css">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/325b5f103a.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-    <H3>Taj Travels</H3>
-    <h1>Nilgiri-Nilachal, Bandarban</h1>
+    <!-- Nav tags starts here -->
+    <nav class="nav-bar">
+        <div class="web-name-container">
+            <img src="Images/Group 40071 (2).png" alt="" class="logo-img">
+            <h1 class="web-name">Best <span class="travel-text">Travels</span></h1>
+        </div>
 
-    <br>
-    <div>
+        <input type="checkbox" id="menu-toggle" class="checkbox">
+        <label for="menu-toggle" class="menu-icon"><i class="fa-solid fa-bars"></i></label>
 
-    <img src="" alt="Nilgiri Mountain">
-    <p>Nilgiri Mountain</p>
-    </div>
+        <ul class="nav-manu">
+            <li><a href=""><span class="home-text">Home</span></a></li>
+            <li><a href="">Packages</a></li>
+            <li><a href="">Testimonial</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Nav tags closes here -->
 
-    <div>
-        <p>নীলগিরি বাংলাদেশের বান্দরবান জেলায় অবস্থিত একটি পাহাড় এবং পর্যটন কেন্দ্র। নীলগিরিকে কে বলা হয় বাংলাদেশের দার্জিলিং। পাহাড়টি বান্দরবান জেলা সদর থেকে প্রায় ৫০ কিলোমিটার দূরে। পাহাড়টি ২২০০ ফুট উঁচু। নীলগিরি পাহাড় চূড়াতেই রয়েছে সেনাবাহিনী পরিচালিত বাংলাদেশের সবচেয়ে সুন্দর পর্যটন কেন্দ্রগুলির একটি নীলগিরি পর্যটন কেন্দ্র।</p>
-    </div>
-    <div>
-        <p>Whats here?</p>
-    </div>
-    <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero nostrum quis fugit architecto doloribus harum ut accusantium fuga molestiae.
-        </p>
-    </div>
-   
+    <!-- Header tags starts here -->
+    <header>
+        <div class="banner-container">
+            <div class="banner-img">
+                <div class="banner-gredient">
+                    <h1 class="banner-title">Explore Your Travel</h1>
+                    <p class="banner-content">Welcome to "Best Travels". Select a popular travel destination below to
+                        discover exclusive trips backed by our low price guarantee. I'm sure you will love it.</p>
+                    <div class="select-section">
+                        <div class="select-input">
+                            <input type="text" placeholder="Where go">
+                        </div>
+                        <div class="select-input">
+                            <input type="text" placeholder="When">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="select-input">
+                            <input type="text" placeholder="Select Type">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <button class="find-btn"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header tags closes here -->
+
+    <!-- Main tags starts here -->
+    <main>
+        <div class="popular-tour-container">
+            <div class="popular-tour-contents">
+                <h3 class="popular-tour-title primary-headings">Our Popular Tours</h3>
+                <p class="popular-tour-text primary-content">
+                    There is some best place to travel. The itineraries in this travel collection are chosen time and
+                    time again—and lets explore why.
+                </p>
+                <ul class="primary-content">
+                    <li>Maldives: Maldives Country in South Asia. Its known for its beaches, blue lagoons and extensive
+                        reefs.</li>
+
+                    <li class="kashmir-tour">Kashmir: Kashmir is often referred to as "Paradise on Earth" for its
+                        breathtaking natural beauty Nestled in India. </li>
+
+                    <li>Bandarban: Bandarban is popular for its breathtaking view of the Arakan range and the mountain
+                        clouds.</li>
+                </ul>
+                <p class="popular-tour-details primary-content">The tours featured throughout our website are intended
+                    to give you ideas for what's possible when you travel with us. So let have a great tour with us. We
+                    are waiting for you. There are more much popular tours we goes monthly. Hope you like to read. </p>
+                <button class="read-more-btn primary-btn">Read More</button>
+            </div>
+            <div class="popular-tour-img">
+                <div class="popular-gredient">
+                    <img src="Images/Rectangle 4.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="choose-container">
+            <h1 class="choose-title primary-headings">Choose Your Destination</h1>
+            <p class="choose-content primary-content">
+                You can discover exclusive trips backed by our low price guarantee.
+            </p>
+        </div>
+
+        <div class="places-img-container">
+            <div class="line-1">
+                <div class="maldives-img">
+                    <img src="Images/Maldives.png" alt="">
+                    <p class="maldives-text">Maldives</p>
+                </div>
+                <div class="indonesia-img">
+                    <img src="Images/Indonesia.png" alt="">
+                    <p class="indonesia-text">Indonesia</p>
+                </div>
+            </div>
+            <div class="line-2">
+                <div class="srilanka-img">
+                    <img src="Images/Srilanka.png" alt="">
+                    <p class="srilanka-text">Srilanka</p>
+                </div>
+                <div class="north-america-img">
+                    <img src="Images/America.png" alt="">
+                    <p class="america-text">North America</p>
+                </div>
+                <div class="Kashmir-img">
+                    <img src="Images/Kashmir.png" alt="">
+                    <p class="kashmir-text">Kashmir</p>
+                </div>
+            </div>
+            <div class="line-3">
+                <div class="bangladesh-img">
+                    <img src="Images/Bangladesh.png" alt="">
+                    <p class="bangladesh-text">Bangladesh</p>
+                </div>
+                <div class="bandarban-img">
+                    <img src="Images/Bandarban.png" alt="">
+                    <p class="bandarban">Bandarban</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Why choose us tags here -->
+
+        <div class="choose-container">
+            <h1 class="choose-title primary-headings">Why Choose Us</h1>
+            <p class="choose-content primary-content">
+                Here are some best traveling places to help you choose and discover how beautiful the places are. Hope
+                you like these places.
+            </p>
+        </div>
+
+        <div class="boxs-container">
+            <div class="box-1-2">
+                <div class="box-1">
+                    <img src="Images/icons/image 1.png" alt="">
+                    <h1 class="handpicked">Handpicked Hotels</h1>
+                    <p class="handpicked-content">Best Travel gives you ultimate choices as like handpick hotel
+                        selection. Just select hotels which you like.</p>
+                </div>
+                <div class="box-2">
+                    <img src="Images/icons/image 2.png" alt="">
+                    <h1 class="handpicked">World Class Service</h1>
+                    <p class="handpicked-content">Best Travel gives you world class service. We are committed to give
+                        you our best service as world class.</p>
+                </div>
+            </div>
+            <div class="box-3">
+                <img src="Images/icons/image 3.png" alt="">
+                <h1 class="handpicked">Best Price Guarantee</h1>
+                <p class="handpicked-content">Best Travel always gives you the option to discover exclusive trips by our
+                    low price guarantee.</p>
+            </div>
+        </div>
+        <!-- Deals & Discounts tags here -->
+
+        <div class="deal-container">
+            <h1 class="primary-headings">Deals & Discounts</h1>
+            <p class="primary-content">Best Travels offers you best deals & discount packages.</p>
+        </div>
+
+        <div class="deals-img-container">
+            <div class="deals-1">
+                <div class="deals-1-box">
+                    <div class="deals-details">
+                        <img src="Images/icons/Frame 1.png" alt="">
+                        <p> 7 Days/ 6 Night</p>
+                        <img src="Images/icons/Frame 2.png" alt="">
+                        <p>Max : 10</p>
+                        <img src="Images/icons/Frame 3.png" alt="">
+                        <p>Maldives</p>
+                    </div>
+                    <h1 class="deals-title">Tour To Maldives</h1>
+                    <p class="deals-content">Maldives Country in South Asia. Its known for its beaches, blue lagoons and
+                        extensive reefs.</p>
+                    <h3 class="price-text">Price: $1300-$1500</h3>
+                    <button class="book-now-btn primary-btn">Book Now</button>
+                </div>
+            </div>
+            <div class="deals-2">
+                <div class="deals-2-box">
+                    <div class="deals-details">
+                        <img src="Images/icons/Frame 1.png" alt="">
+                        <p> 4 Days/ 5 Night</p>
+                        <img src="Images/icons/Frame 2.png" alt="">
+                        <p>Max : 15</p>
+                        <img src="Images/icons/Frame 3.png" alt="">
+                        <p>Kashmir</p>
+                    </div>
+                    <h1 class="deals-title">Tour To Kashmir</h1>
+                    <p class="deals-content">Kashmir is often referred to as "Paradise on Earth" for its breathtaking
+                        natural beauty Nestled in India.</p>
+                    <h3 class="price-text">Price: $1000-$1200</h3>
+                    <button class="book-now-btn primary-btn">Book Now</button>
+                </div>
+            </div>
+            <div class="deals-1">
+                <div class="deals-1-box">
+                    <div class="deals-details">
+                        <img src="Images/icons/Frame 1.png" alt="">
+                        <p> 6 Days/ 7 Night</p>
+                        <img src="Images/icons/Frame 2.png" alt="">
+                        <p>Max : 10</p>
+                        <img src="Images/icons/Frame 3.png" alt="">
+                        <p>Bandarban</p>
+                    </div>
+                    <h1 class="deals-title">Tour To Bandarban</h1>
+                    <p class="deals-content">Bandarban is popular for its breathtaking view of the Arakan range and the
+                        mountain clouds.</p>
+                    <h3 class="price-text">Price: $1500-$1600</h3>
+                    <button class="book-now-btn primary-btn">Book Now</button>
+                </div>
+            </div>
+            <div class="see-all">
+                <button class="primary-btn see-all-btn">See All Packages</button>
+            </div>
+        </div>
+
+        <!-- Perfect Placce tags here -->
+
+        <div class="perfect-place-container">
+            <div class="perfect-place-contents">
+                <h1 class="primary-headings">A Simple Perfect Place To Get Lost</h1>
+                <p class="perfect-place-content primary-content">Bangladesh is the perfect place to getting lost. You
+                    will enjoy every single beauty of nature here. </p>
+                <ul class="content-ul">
+                    <li>You can feel the mountains of Bangladesh like they talking to you. Just you and mountains.</li>
+                    <li class="content-li-2">In Bangladesh you can find the largest natural sea beach in the world. Its
+                        Cox's Bazar.</li>
+                </ul>
+                <button class="see-more primary-btn">See More</button>
+            </div>
+            <div class="perfect-place-img">
+                <img src="Images/Perfect Place.png" alt="">
+                <p class="perfect-place-img-text">Watch Our Mountain in Bangladesh</p>
+            </div>
+
+        </div>
+
+        <!-- Newsletter tags here -->
+        <div class="newsletter-container">
+            <div class="newsletter-contents">
+                <h2 class="newsletter-title-text">Newsletter</h2>
+                <p class="newsletter-content-text">
+                    Get your daily dose of travel news & tips. Sign up today!
+                </p>
+                <hr>
+                <div class="newsletter-input-container">
+                    <div class="newsletter-input">
+                        <input type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="newsletter-input">
+                        <input type="email" placeholder="Enter your email">
+                    </div>
+                </div>
+                <button class="subscribe-btn">Subscribe</button>
+            </div>
+            <div class="newsletter-img-container">
+                <img src="Images/Rectangle 8 (1).png" alt="">
+                <div class="newsletter-img-text-container">
+                    <p class="newsletter-img-text">
+                        Best Travels</p>
+                    <h2 class="save-upto-text">Save up to 70%</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Special Tours (Bonus) tags here -->
+        <div class="special-tour-container">
+            <div class="special-tour-contents">
+                <h1 class="special-title">Our Special Tour Catagories</h1>
+                <p class="special-text">Best Travels always thinks to do the best and provides best options as Special
+                    Tour Catagories. Which one you will prefer?</p>
+            </div>
+            <div class="special-img-container">
+                <div class="special-img1">
+                    <img src="Images/bonus/1 Day tour.jpg" alt="">
+                    <h3 class="special-tour-name">Day Trips</h3>
+                </div>
+                <div class="special-img2">
+                    <img src="Images/bonus/2 Single tour.jpg" alt="">
+                    <h3 class="special-tour-name">Single Tours</h3>
+                </div>
+                <div class="special-img1">
+                    <img src="Images/bonus/3 Kids tour.jpg" alt="">
+                    <h3 class="special-tour-name">Tours for Kids</h3>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- Main tags closes here -->
+
+    <!-- Footer tags starts here  -->
+    <footer>
+        <div class="footer-web-name-container">
+            <img src="Images/Group 40071 (2).png" alt="" class="logo-img">
+            <h1 class="web-name">Best <span class="travel-text">Travels</span></h1>
+        </div>
+        <p class="footer-text primary-content">Best Travels offers you best deals & discount packages.You can discover
+            exclusive trips backed by our low price guarantee.</p>
+
+        <div class="social-media">
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+
+        <hr class="footer-hr">
+
+        <p class="copy-right">2017, All Rights Reserved.</p>
+
+    </footer>
+    <!-- Footer tags closes here -->
+
 </body>
+
 </html>
