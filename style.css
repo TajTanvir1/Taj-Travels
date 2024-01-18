@@ -502,7 +502,7 @@
  
  .perfect-place-img {
     border-radius: 16px;
-    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+    /* background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%); */
  }
  
  .perfect-place-img-text {
