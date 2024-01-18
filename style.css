@@ -541,7 +541,8 @@
  }
  
  .newsletter-content-text {
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
@@ -551,7 +552,8 @@
  }
  
  hr {
-    width: 393px;
+    width: 80%;
+    max-width: 393px;
     height: 1px;
     margin-left: 40px;
  }
@@ -581,7 +583,8 @@
  }
  
  .subscribe-btn {
-    width: 393px;
+    width: 100%;
+    max-width: 393px;
     height: 52px;
     border-radius: 8px;
     background: #FF5400;
@@ -633,7 +636,8 @@
  }
  
  .special-text{
-    width: 500px;
+    width: auto;
+    max-width: 500px;
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
@@ -721,7 +725,8 @@
  }
  
  .footer-hr {
-    width: 872px;
+    width: 90%;
+    max-width: 800px;
     height: 1px;
     margin: 60px auto;
  }
